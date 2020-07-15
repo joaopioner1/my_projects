@@ -13,8 +13,8 @@ public class Cadastro {
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
 
-			System.out.println("Insira seu nome completo: ");
-			in.next();
+			System.out.print("Insira seu nome completo: ");
+			in.nextLine();
 			
 			System.out.print("Insira o seu e-mail: ");
 			String email1 = in.nextLine();
