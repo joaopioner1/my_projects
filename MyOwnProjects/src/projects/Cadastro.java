@@ -6,27 +6,30 @@ public class Cadastro {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("*Este programa é um sistema de cadastro rudimentar*");
+		System.out.println("*Este programa Ã© um sistema de cadastro rudimentar*");
 
-		System.out.print("\nOlá, você deseja criar uma conta neste site (Sim/Nao)? ");
+		System.out.print("\nOlÃ¡, vocÃª deseja criar uma conta neste site (Sim/Nao)? ");
 		String answer = in.nextLine();
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
 
+			System.out.println("Insira seu nome completo: ");
+			in.next();
+			
 			System.out.print("Insira o seu e-mail: ");
 			String email1 = in.nextLine();
 
-			System.out.print("Insira a sua senha com 8 até 12 caracteres (apenas números): ");
+			System.out.print("Insira a sua senha com 8 atÃ© 12 caracteres (apenas nÃºmeros): ");
 			long senha1 = in.nextLong();
 
 			int count = 0;
 			while (count < 100) {
-				System.out.println(".");
+				System.out.println(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .");
 				count++;
 			}
-			System.out.println("Olá, seja bem-vindo de novo! Faça login para entrar.");
+			System.out.println("OlÃ¡, seja bem-vindo! FaÃ§a login para entrar.");
 
-			System.out.print("Insira seu e-mail: ");
+			System.out.print("\nInsira seu e-mail: ");
 			String email2 = in.next();
 
 			System.out.print("Insira sua senha: ");
@@ -38,7 +41,7 @@ public class Cadastro {
 				System.out.println("E-mail ou senha errados, por favor tente novamente.");
 			}
 		} else {
-			System.out.println("Ok, até logo!");
+			System.out.println("Ok, atÃ© logo!");
 		}
 
 		in.close();
