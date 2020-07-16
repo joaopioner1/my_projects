@@ -8,7 +8,7 @@ public class Cadastro {
 		Scanner in = new Scanner(System.in);
 		System.out.println("*Este programa é um sistema de cadastro rudimentar*");
 
-		System.out.print("\nOlá, você deseja criar uma conta neste site (Sim/Nao)? ");
+		System.out.print("\nOlá¡, vocÃª deseja criar uma conta neste site (Sim/Nao)? ");
 		String answer = in.nextLine();
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
@@ -19,7 +19,7 @@ public class Cadastro {
 			System.out.print("Insira o seu e-mail: ");
 			String email1 = in.nextLine();
 
-			System.out.print("Insira a sua senha com 8 até 12 caracteres (apenas números): ");
+			System.out.print("Insira a sua senha com 8 atÃ© 12 caracteres (apenas nÃºmeros): ");
 			long senha1 = in.nextLong();
 
 			int count = 0;
@@ -27,11 +27,10 @@ public class Cadastro {
 				System.out.println(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .");
 				count++;
 			}
-<<<<<<< HEAD
-			System.out.println("Ol�, seja bem-vindo! Fa�a login para entrar.");
-=======
+
 			System.out.println("Olá, seja bem-vindo! Faça login para entrar.");
->>>>>>> branch 'master' of https://github.com/joaopioner1/myownprojects
+
+			System.out.println("Olá, seja bem-vindo! Faça login para entrar.");
 
 			System.out.print("\nInsira seu e-mail: ");
 			String email2 = in.next();
