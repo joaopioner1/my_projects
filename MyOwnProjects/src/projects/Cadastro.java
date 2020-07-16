@@ -13,6 +13,9 @@ public class Cadastro {
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
 
+			System.out.print("Insira seu nome completo: ");
+			in.nextLine();
+			
 			System.out.print("Insira o seu e-mail: ");
 			String email1 = in.nextLine();
 
@@ -21,12 +24,12 @@ public class Cadastro {
 
 			int count = 0;
 			while (count < 100) {
-				System.out.println(".");
+				System.out.println(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .");
 				count++;
 			}
-			System.out.println("Olá, seja bem-vindo de novo! Faça login para entrar.");
+			System.out.println("Olá, seja bem-vindo! Faça login para entrar.");
 
-			System.out.print("Insira seu e-mail: ");
+			System.out.print("\nInsira seu e-mail: ");
 			String email2 = in.next();
 
 			System.out.print("Insira sua senha: ");
