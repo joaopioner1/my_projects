@@ -8,7 +8,7 @@ public class Cadastro {
 		Scanner in = new Scanner(System.in);
 		System.out.println("*Este programa é um sistema de cadastro rudimentar*");
 
-		System.out.print("\nOlá¡, vocÃª deseja criar uma conta neste site (Sim/Nao)? ");
+		System.out.print("\nOlá¡, você deseja criar uma conta neste site (Sim/Nao)? ");
 		String answer = in.nextLine();
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
