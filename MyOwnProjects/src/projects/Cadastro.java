@@ -8,7 +8,11 @@ public class Cadastro {
 		Scanner in = new Scanner(System.in);
 		System.out.println("*Este programa é um sistema de cadastro rudimentar*");
 
+<<<<<<< HEAD
 		System.out.print("\nOlá, você deseja criar uma conta neste site (Sim/Nao)? ");
+=======
+		System.out.print("\nOlÃ¡Â¡, vocÃª deseja criar uma conta neste site (Sim/Nao)? ");
+>>>>>>> branch 'master' of https://github.com/joaopioner1/myownprojects
 		String answer = in.nextLine();
 
 		if (answer.equals("Sim") || answer.equals("sim")) {
@@ -19,7 +23,11 @@ public class Cadastro {
 			System.out.print("Insira o seu e-mail: ");
 			String email1 = in.nextLine();
 
+<<<<<<< HEAD
 			System.out.print("Insira a sua senha com 8 até 12 caracteres (apenas números): ");
+=======
+			System.out.print("Insira a sua senha com 8 atÃƒÂ© 12 caracteres (apenas nÃƒÂºmeros): ");
+>>>>>>> branch 'master' of https://github.com/joaopioner1/myownprojects
 			long senha1 = in.nextLong();
 
 			int count = 0;
@@ -27,8 +35,16 @@ public class Cadastro {
 				System.out.println(". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .");
 				count++;
 			}
+<<<<<<< HEAD
 			System.out.print("Olá, seja bem-vindo! Faça login para entrar");
 			
+=======
+
+			System.out.println("OlÃ¡, seja bem-vindo! FaÃ§a login para entrar.");
+
+			System.out.println("OlÃ¡, seja bem-vindo! FaÃ§a login para entrar.");
+
+>>>>>>> branch 'master' of https://github.com/joaopioner1/myownprojects
 			System.out.print("\nInsira seu e-mail: ");
 			String email2 = in.next();
 
