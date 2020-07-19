@@ -13,7 +13,7 @@ public class calculadoraDiferente {
 		System.out.print("Insira o segundo número: ");
 		double n2 = in.nextDouble();
 
-		System.out.print("Insira o símbolo da operação que deseja realizar(*, +, -, %, /): ");
+		System.out.print("Insira o símbolo da operação que deseja realizar(*, +, -, %, /, raiz): ");
 		String simbolo = in.next();
 
 		switch (simbolo) {
@@ -31,6 +31,9 @@ public class calculadoraDiferente {
 			break;
 		case "/":
 			System.out.println("A divisão desses números é: " + (n1 / n2));
+			break;
+		case "raiz":
+			System.out.println("A raíz quadrada do primeiro número é: " + Math.sqrt(n1) + "\nA raíz quadrada do segundo número é: " + Math.sqrt(n2));
 			break;
 		}
 
