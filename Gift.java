@@ -26,6 +26,8 @@ public class Main
 		System.out.print("\nDigite love para continuar: ");
 		in.next();
 		
+		System.out.println("Love, tu ja eh uma programadora, uma programadora java kkkk tu pode achar que estou mentindo," 
+		+ " \nobvio que tu esta apenas iniciando, mas ja eh uma programadora! Uma programadora que me enche de orgulho. Por enquanto sou eu quem te ensino, mas no futuro acho que tu que vai me ensinar kkkkj");
 		in.close();
 	}
 }
