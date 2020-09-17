@@ -18,6 +18,9 @@ public class Main
 		System.out.print("Digite love para continuar: ");
 		in.next();
 		
+		System.out.println("Digo e repito, tu tem muito em especial, muito potencial;, e tu sabes disso!"
+		+ " \nPor isso sempre acreditei em ti amor, eu consigo ver o quanto tu tem a oferecer e como tu eh maravilhosa.");
+		
 		in.close();
 	}
 }
