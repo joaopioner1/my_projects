@@ -8,18 +8,23 @@ public class Main
 		System.out.println("Oi amor, fiz esse programa para ti, vou falar aqui sobre o teu"
 		+ " caminho na programacao junto comingo.");
 		
-		System.out.print("Digite love para continuar: ");
+		System.out.print("\nDigite love para continuar: ");
 		in.next();
 		
 		System.out.println("Amor, o comeco foi bem aleatorio, no entanto acho que a magia da coisa foi essa.");
 		System.out.println("Enfim, tudo comecou no Scratch, foi uma parte dificil para ti, pelo menos no comeco,"  
 		+ "\nera um coisa completamente nova e tu persistiu e chegou ate aqui! \nMe sinto muito orgulhoso de ti, muito mesmo.");
 		
-		System.out.print("Digite love para continuar: ");
+		System.out.print("\nDigite love para continuar: ");
 		in.next();
 		
-		System.out.println("Digo e repito, tu tem muito em especial, muito potencial;, e tu sabes disso!"
+		System.out.println("Digo e repito, tu tem muito em especial, muito potencial, e tu sabes disso!"
 		+ " \nPor isso sempre acreditei em ti amor, eu consigo ver o quanto tu tem a oferecer e como tu eh maravilhosa.");
+		System.out.println("Amor, olha em volta, observa onde tu esta. Tu nao tinha ideia que chegaria ate aqui, mas aqui tu estas.");
+		System.out.println("Como eu sempre falo, nao desisti, persiste que tu vai longe, porque capacidade tu tem de sobra!");
+		
+		System.out.print("\nDigite love para continuar: ");
+		in.next();
 		
 		in.close();
 	}
