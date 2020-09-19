@@ -6,7 +6,7 @@ public class Main
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("Oi amor, fiz esse programa para ti, vou falar aqui sobre o teu"
-		+ " caminho na programacao junto comingo.");
+		+ " caminho na programacao junto comigo.");
 		
 		System.out.print("\nDigite love para continuar: ");
 		in.next();
@@ -27,7 +27,23 @@ public class Main
 		in.next();
 		
 		System.out.println("Love, tu ja eh uma programadora, uma programadora java kkkk tu pode achar que estou mentindo," 
-		+ " \nobvio que tu esta apenas iniciando, mas ja eh uma programadora! Uma programadora que me enche de orgulho. Por enquanto sou eu quem te ensino, mas no futuro acho que tu que vai me ensinar kkkkj");
+		+ " \nobvio que tu esta apenas iniciando, mas ja eh uma programadora! Uma programadora que me enche de orgulho. Por enquanto sou eu quem te ensino, mas no futuro acho que ira ser ao contrario kkkkj");
+		
+		System.out.print("\nDigite love para continuar: ");
+		in.next();
+		
+		System.out.println("EU TE AMOOOOOOOOOO MUITO MINHA GODINHA POGAMADOLA! Obrigado por tudo amor, obrigado por entrar nessa caminhada junto comigo.\nTu nao tem nocao do quanto isso signifca para mim." 
+		+ "\nEu sei, eu entendo teu lado quando te da vontade de desistir, largar, mas por favor, nao faca isso... Eu sei que e dificil, mas isso trara apenas beneficios para ti, amor. \n"
+		+ "Entao, espero que tenha gostado da surpresa amor, um programa bem simples, mas foi so para representar o quanto isso aqui eh importante para mim, eu te amo, demais e sempre vou amar..");
+		System.out.println("\nFFFFFFFFFF EEEEEEEEEE ");
+		System.out.println("FF           EE");
+		System.out.println("FF           EE");
+		System.out.println("FFFFFFF      EEEEEEE");
+		System.out.println("FF           EE");
+		System.out.println("FF           EE");
+		System.out.println("FF           EE");
+		System.out.println("FF           EEEEEEEEEE");
+		
 		in.close();
 	}
 }
