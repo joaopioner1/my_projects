@@ -8,7 +8,7 @@ public class Main
 		System.out.println("Oi amor, fiz esse programa para ti, vou falar aqui sobre o teu"
 		+ " caminho na programacao junto comingo.");
 		
-		System.out.print("\nDigite love para continuar: ")
+		System.out.print("\nDigite love para continuar: ");
 		in.next();
 		
 		System.out.println("Amor, o comeco foi bem aleatorio, no entanto acho que a magia da coisa foi essa.");
