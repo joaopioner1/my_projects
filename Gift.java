@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Main
 {
@@ -35,14 +34,23 @@ public class Main
 		System.out.println("EU TE AMOOOOOOOOOO MUITO MINHA GODINHA POGAMADOLA! Obrigado por tudo amor, obrigado por entrar nessa caminhada junto comigo.\nTu nao tem nocao do quanto isso signifca para mim." 
 		+ "\nEu sei, eu entendo teu lado quando te da vontade de desistir, largar, mas por favor, nao faca isso... Eu sei que e dificil, mas isso trara apenas beneficios para ti, amor. \n"
 		+ "Entao, espero que tenha gostado da surpresa amor, um programa bem simples, mas foi so para representar o quanto isso aqui eh importante para mim, eu te amo, demais e sempre vou amar..");
-		System.out.println("\nFFFFFFFFFF EEEEEEEEEE ");
-		System.out.println("FF           EE");
-		System.out.println("FF           EE");
-		System.out.println("FFFFFFF      EEEEEEE");
-		System.out.println("FF           EE");
-		System.out.println("FF           EE");
-		System.out.println("FF           EE");
-		System.out.println("FF           EEEEEEEEEE");
+		System.out.println("\nFFFFFFFFFF   EEEEEEEEEE   LL          **   ZZZZZZZZZ");
+		System.out.println("FF           EE           LL          II          ZZ");
+		System.out.println("FF           EE           LL          II         ZZ");
+		System.out.println("FFFFFFF      EEEEEEE      LL          II        ZZ");
+		System.out.println("FF           EE           LL          II       ZZ");
+		System.out.println("FF           EE           LL          II      ZZ");
+		System.out.println("FF           EE           LL          II     ZZ");
+		System.out.println("FF           EEEEEEEEEE   LLLLLLLLLL  II    ZZZZZZZZZ");
+		System.out.println("");
+		System.out.println("UU      UU   MM      MM     AAAAAAAAAAA   NN        NN   OOOOOOOOO");
+		System.out.println("UU      UU  MM MM   MM MM   AA       AA  NN NN      NN  OO       OO");
+		System.out.println("UU      UU  MM  MM MM  MM   AA       AA  NN  NN     NN  OO       OO");
+		System.out.println("UU      UU  MM   MM    MM   AAAAAAAAAAA  NN   NN    NN  OO       OO");
+		System.out.println("UU      UU  MM         MM   AA       AA  NN    NN   NN  OO       OO");
+		System.out.println("UU      UU  MM         MM   AA       AA  NN     NN  NN  OO       OO");
+		System.out.println("UU      UU  MM         MM   AA       AA  NN      NN NN  OO       OO");
+		System.out.println(" UUUUUUUU   MM         MM   AA       AA  NN       NN     OOOOOOOOO");
 		
 		in.close();
 	}
